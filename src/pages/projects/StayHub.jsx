@@ -16,7 +16,7 @@ const StayHub = () => {
             <Row>
                 <Col>
                     <div className="project-info">
-                            <img src={img1}/>
+                            <img src={img1} alt=''/>
                     </div>
                     <div className="team-content">
                         <p>

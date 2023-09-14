@@ -20,7 +20,7 @@ const TeamMembers = () => {
         <Row style={{padding: '0rem 0rem 2rem'}}>
             <Col lg='4'className='d-flex justify-center'>
                 <div className='picture'>
-                    <img src={img}/>
+                    <img src={img} alt=''/>
                 </div>
             </Col>
             <Col lg='8' className='d-flex'>
@@ -35,7 +35,7 @@ const TeamMembers = () => {
             <Row style={{padding: '0rem 0rem 2rem'}}>
                 <Col lg='4'className='d-flex'>
                     <div className='pic'>
-                        <img src={srisesha}/>
+                        <img src={srisesha} alt=''/>
                     </div>
                 </Col>
                 <Col lg='8' className='d-flex'>
@@ -59,7 +59,7 @@ const TeamMembers = () => {
             <Row style={{padding: '0rem 0rem 2rem'}}>
                 <Col lg='4'className='d-flex'>
                     <div className='pic'>
-                        <img src={mani}/>
+                        <img src={mani} alt=''/>
                     </div>
                 </Col>
                 <Col lg='8' className='d-flex'>
@@ -83,7 +83,7 @@ const TeamMembers = () => {
             <Row style={{padding: '0rem 0rem 2rem'}}>
                 <Col lg='4'className='d-flex'>
                     <div className='pic'>
-                        <img src={rajesh}/>
+                        <img src={rajesh} alt=''/>
                     </div>
                 </Col>
                 <Col lg='8' className='d-flex'>
@@ -103,7 +103,7 @@ const TeamMembers = () => {
             <Row style={{padding: '0rem 0rem 2rem'}}>
                 <Col lg='4'className='d-flex'>
                     <div className='pic'>
-                        <img src={masthan} style={{height:'250px', width:'250px'}}/>
+                        <img src={masthan} alt='' style={{height:'250px', width:'250px'}}/>
                     </div>
                 </Col>
                 <Col lg='8' className='d-flex'>

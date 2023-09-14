@@ -23,7 +23,7 @@ const About = () => {
         <Row>
             <Col lg='4'className='d-flex justify-center'>
                 <div className='picture'>
-                    <img src={img}/>
+                    <img src={img} alt=''/>
                 </div>
             </Col>
             <Col lg='8' className='d-flex'>
