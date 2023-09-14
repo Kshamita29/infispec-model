@@ -1,0 +1,202 @@
+
+
+.box {
+    text-align: center;
+    max-width: 370px;
+    min-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 66px 15px 50px;
+    background: #ffffff;
+    box-shadow: 0 0 13px -4px rgba(0, 0, 0, 0.17);
+    transition: all .3s ease;
+}
+
+.box-modern{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    padding-top: 36px;
+    padding-bottom: 38px;
+}
+
+.box-modern-2 {
+    padding-top: 42px;
+    padding-bottom: 35px;
+}
+
+.box-modern-big-title {
+    line-height: 1.04;
+}
+
+.cap-title{
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.box-modern-decor::before {
+    position: absolute;
+    content: '';
+    height: 100%;
+    left: 15px;
+    right: 15px;
+    background: #d7d7d7;
+    transition: all .3s ease;
+    z-index: 0; 
+}
+
+.box-modern-decor {
+    position: relative;
+    max-width: 126px;
+    width: 100px;
+    height: 2px;
+    margin: 20px auto 22px;
+    overflow: hidden; /* Hide overflow content */
+}
+
+.box-modern-decor::after {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: var(--secondary-color);
+    transition: all .3s ease;
+    left: 0; 
+    z-index: 1; 
+    visibility: hidden;
+}
+
+.box-modern:hover .box-modern-decor::before {
+    background: #d7d7d7; 
+    width: 0; 
+}
+
+.box-modern:hover .box-modern-decor::after {
+    width: 100%; 
+    visibility: visible;
+}
+
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.material-ui-icon::after {
+    position: absolute;
+    content: '';
+    left: 50%;
+    bottom: 9px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 34.5px 60px 34.5px;
+    border-color: transparent transparent #eaeaea transparent;
+    transform: translate3d(-50%, 0, 0) rotate(15deg);
+    transform-origin: 50% 80%;
+    transition: all .3s ease;
+    z-index: -1; /* Setting the z-index behind the material-ui-icon */
+}
+
+.box-modern:hover .material-ui-icon::after {
+    transform: translate3d(-50%, 0, 0) rotate(0deg); /* Rotate back to 0 degrees on hover */
+}
+
+.material-ui-icon {
+    position: relative; /* The material-ui-icon is positioned relative */
+    z-index: 1; /* Setting a higher z-index for the material-ui-icon */
+}
+
+
+.button {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    min-width: 200px;
+    padding: 17px 33px 15px;
+    font-size: 14px;
+    line-height: 1.34;
+    font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+    user-select: none;
+    transition: 250ms ease-in-out;
+    text-decoration: none;
+    color: #ffffff; /* Initial text color */
+    background-color: var(--secondary-color); /* Initial background color */
+    border-color: var(--secondary-color); /* Initial border color */
+    border-radius: 4px;
+}
+
+.button-ujarak {
+    position: relative;
+    z-index: 0;
+}
+.button-ujarak, .button-ujarak::before {
+    transition-timing-function: cubic-bezier(0.4, 1, 0.3, 1);
+    border-radius: 4px;
+}
+
+.button-ujarak::before,
+.button-ujarak::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: inherit;
+    z-index: -1;
+    background-color: var(--secondary-color) !important; /* Initial background color */
+    border: 2px solid var(--secondary-color) !important; /* Initial border color */
+    border-radius: 4px;
+}
+
+
+.button-ujarak:hover::before,
+.button-ujarak:hover::after {
+    background-color: #151515 !important; /* Hover background color */
+    border-color: #151515 !important; /* Hover border color */
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+.box-modern-decor + .button {
+    margin-top: 8px;
+    border-radius: 4px;
+}
+
+a, 
+a:focus, 
+a:active {
+    color: #6689ff;
+}
+
+a, 
+a:focus, 
+a:active, 
+a:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.box-modern-content {
+    padding: 0px 15px;
+}
+
+.box-modern-text{
+    text-align: justify !important;
+}

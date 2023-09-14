@@ -1,0 +1,19 @@
+.vnm-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.vission,
+.mission{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3rem;
+}
+
+.vission h2,
+.mission h2{
+    font-weight: 500;
+}

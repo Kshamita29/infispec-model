@@ -1,0 +1,138 @@
+.about-content{
+    padding-bottom: 3rem;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    margin: 20px 740px;
+    justify-content: center;
+    width: 900px;
+}
+
+.head h1{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.picture {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    transform: translate(0px, 0px);
+}
+
+.picture img{
+    height: 20em;
+    width: 30em;
+}
+
+p{
+    text-align: justify;
+}
+
+.core-values{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.core-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+.core-head h1{
+    text-transform: uppercase;
+}
+
+.box-modern-decor::before {
+    position: absolute;
+    content: '';
+    height: 100%;
+    left: 15px;
+    right: 15px;
+    background: #d7d7d7;
+    transition: all .3s ease;
+    z-index: 0; 
+}
+
+.box-modern-decor {
+    position: relative;
+    max-width: 600px;
+    width: 150px;
+    height: 2px;
+    margin: 20px auto 22px;
+    overflow: hidden; /* Hide overflow content */
+}
+
+.box-modern-decor::after {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: var(--secondary-color);
+    transition: all .3s ease;
+    left: 0; 
+    z-index: 1; 
+    visibility: hidden;
+}
+
+.core-values:hover .box-modern-decor::before {
+    background: #d7d7d7; 
+    width: 0; 
+}
+
+.core-values:hover .box-modern-decor::after {
+    width: 100%; 
+    visibility: visible;
+}
+
+.core-values:hover .core-head h1{
+    scale: 1.1;
+}
+
+.description-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.single-core-value{
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 4px;
+    padding: 20px;
+    margin: 20px 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.core-value-icon,
+.value{
+    padding-bottom: 1rem;
+}
+
+.core-values:hover .core-value-icon,
+.core-values:hover .value{
+    scale: 1.1;
+    color: var(--secondary-color);
+}
+
+.core-value-icon img{
+    height: 45px;
+    width: 45px;
+}
+
+.description-container:hover .single-core-value{
+    opacity: 1;
+    top: 70%;
+    transform: translateY(-10%);
+}
+

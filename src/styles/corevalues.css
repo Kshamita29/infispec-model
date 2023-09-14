@@ -1,0 +1,80 @@
+.core-values{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.core-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+.core-head h1{
+    text-transform: uppercase;
+}
+
+.explore-more{
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+
+.explore-more-button{
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    width: 300px;
+    position: relative;
+    right: -500px;
+}
+
+.box-modern-decor::before {
+    position: absolute;
+    content: '';
+    height: 100%;
+    left: 15px;
+    right: 15px;
+    background: #d7d7d7;
+    transition: all .3s ease;
+    z-index: 0; 
+}
+
+.box-modern-decor {
+    position: relative;
+    max-width: 600px;
+    width: 150px;
+    height: 2px;
+    margin: 20px auto 22px;
+    overflow: hidden; /* Hide overflow content */
+}
+
+.box-modern-decor::after {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: var(--secondary-color);
+    transition: all .3s ease;
+    left: 0; 
+    z-index: 1; 
+    visibility: hidden;
+}
+
+.core-values:hover .box-modern-decor::before {
+    background: #d7d7d7; 
+    width: 0; 
+}
+
+.core-values:hover .box-modern-decor::after {
+    width: 100%; 
+    visibility: visible;
+}
+
+.core-values:hover .core-head h1{
+    scale: 1.1;
+}
+
