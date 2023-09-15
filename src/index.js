@@ -18,7 +18,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-    <HashRouter basename={`/${process.env.REACT_APP_FOR_PATH}`}>
+    <HashRouter>
       <App />
     </HashRouter>
   </React.StrictMode>

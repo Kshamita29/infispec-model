@@ -20,19 +20,19 @@ import ContactUs from '../pages/ContactUs';
 const Routers = () => {
   return (
       <Routes> 
-          <Route path={process.env.REACT_APP_FOR_PATH + "/"} element={<Home/>} />
-          <Route path={process.env.REACT_APP_FOR_PATH + "/services"} element={<AllServices />} />
-          <Route path={process.env.REACT_APP_FOR_PATH + '/about'} element={<About />}/>
-          <Route path={process.env.REACT_APP_FOR_PATH + '/team'} element={<TeamMembers />}/>
-          <Route path={process.env.REACT_APP_FOR_PATH + '/projects'} element={<Projects />}/>
-          <Route path={process.env.REACT_APP_FOR_PATH + '/infinite-insights'} element={<InfiniteInsights />}/>
-          <Route path={process.env.REACT_APP_FOR_PATH + '/e-profile'} element={<Profile />}/>
-          <Route path={process.env.REACT_APP_FOR_PATH + '/tax'} element={<TaxProConnect />}/>
-          <Route path={process.env.REACT_APP_FOR_PATH + '/stay'} element={<StayHub />}/>
-          <Route path={process.env.REACT_APP_FOR_PATH + '/why-choose-us'} element={<WhyChooseUs />}/>
-          <Route path={process.env.REACT_APP_FOR_PATH + '/v-n-m'} element={<VnM />}/>
-          <Route path={process.env.REACT_APP_FOR_PATH + '/core-values'} element={<CoreValues/>}/>
-          <Route path={process.env.REACT_APP_FOR_PATH + '/contact-us'} element={<ContactUs/>}/>
+          <Route path="/" element={<Home/>} />
+          <Route path="/services" element={<AllServices />} />
+          <Route path='/about' element={<About />}/>
+          <Route path='/team' element={<TeamMembers />}/>
+          <Route path='/projects' element={<Projects />}/>
+          <Route path='/infinite-insights' element={<InfiniteInsights />}/>
+          <Route path='/e-profile' element={<Profile />}/>
+          <Route path='/tax' element={<TaxProConnect />}/>
+          <Route path='/stay' element={<StayHub />}/>
+          <Route path='/why-choose-us' element={<WhyChooseUs />}/>
+          <Route path='/v-n-m' element={<VnM />}/>
+          <Route path='/core-values' element={<CoreValues/>}/>
+          <Route path='/contact-us' element={<ContactUs/>}/>
       </Routes>
     
   );
