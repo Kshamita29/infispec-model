@@ -20,20 +20,23 @@ import ContactUs from '../pages/ContactUs';
 const Routers = () => {
   return (
     <HashRouter>
-      <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="/services" element={<AllServices />} />
-        <Route path='/about' element={<About />}/>
-        <Route path='/team' element={<TeamMembers />}/>
-        <Route path='/projects' element={<Projects />}/>
-        <Route path='/infinite-insights' element={<InfiniteInsights />}/>
-        <Route path='/e-profile' element={<Profile />}/>
-        <Route path='/tax' element={<TaxProConnect />}/>
-        <Route path='/stay' element={<StayHub />}/>
-        <Route path='/why-choose-us' element={<WhyChooseUs />}/>
-        <Route path='/v-n-m' element={<VnM />}/>
-        <Route path='/core-values' element={<CoreValues/>}/>
-        <Route path='/contact-us' element={<ContactUs/>}/>
+      <Routes> 
+        <div>
+          <Route path="/" element={<Home/>} />
+          <Route path="/services" element={<AllServices />} />
+          <Route path='/about' element={<About />}/>
+          <Route path='/team' element={<TeamMembers />}/>
+          <Route path='/projects' element={<Projects />}/>
+          <Route path='/infinite-insights' element={<InfiniteInsights />}/>
+          <Route path='/e-profile' element={<Profile />}/>
+          <Route path='/tax' element={<TaxProConnect />}/>
+          <Route path='/stay' element={<StayHub />}/>
+          <Route path='/why-choose-us' element={<WhyChooseUs />}/>
+          <Route path='/v-n-m' element={<VnM />}/>
+          <Route path='/core-values' element={<CoreValues/>}/>
+          <Route path='/contact-us' element={<ContactUs/>}/>
+        </div>
+        
       </Routes>
     </HashRouter>
     
