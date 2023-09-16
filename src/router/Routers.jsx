@@ -20,9 +20,9 @@ import ContactUs from '../pages/ContactUs';
 const Routers = () => {
   return (
       <Routes> 
-          <Route exact path="/infispec-model" element={<Home/>} />
+          <Route path="/" element={<Home/>} />
           <Route path="/services" element={<AllServices />} />
-          <Route path='/about' element={<About />}/>
+          <Route path="/about" element={<About />}/>
           <Route path='/team' element={<TeamMembers />}/>
           <Route path='/projects' element={<Projects />}/>
           <Route path='/infinite-insights' element={<InfiniteInsights />}/>
