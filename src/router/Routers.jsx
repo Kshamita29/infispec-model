@@ -15,8 +15,6 @@ import VnM from '../components/UI/VnM';
 import CoreValues from '../components/UI/CoreValues';
 import ContactUs from '../pages/ContactUs';
 
-const path = process.env.REACT_APP_FOR_PATH;
-
 const Routers = () => {
   return (
       <Routes> 
