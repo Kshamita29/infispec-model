@@ -18,7 +18,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-    <HashRouter baseline="/infispec-model/">
+    <HashRouter baseline="/">
       <App />
     </HashRouter>
   </React.StrictMode>
