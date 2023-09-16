@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route} from 'react-router-dom';
+import { Switch, Route} from 'react-router-dom';
 import Home from '../pages/Home';
 import AllServices from '../pages/AllServices';
 import About from '../pages/About';
@@ -14,12 +14,13 @@ import WhyChooseUs from '../components/UI/WhyChooseUs';
 import VnM from '../components/UI/VnM';
 import CoreValues from '../components/UI/CoreValues';
 import ContactUs from '../pages/ContactUs';
+import { Switch } from '@mui/material';
 
 const path = process.env.REACT_APP_FOR_PATH;
 
 const Routers = () => {
   return (
-      <Routes> 
+      <Switch> 
           <Route path="/" element={<Home/>} />
           <Route path="/services" element={<AllServices />} />
           <Route path="/about" element={<About />}/>
@@ -33,7 +34,7 @@ const Routers = () => {
           <Route path='/v-n-m' element={<VnM />}/>
           <Route path='/core-values' element={<CoreValues/>}/>
           <Route path='/contact-us' element={<ContactUs/>}/>
-      </Routes>
+      </Switch>
     
   );
 };
