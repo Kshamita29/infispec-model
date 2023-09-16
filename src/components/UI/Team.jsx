@@ -25,6 +25,25 @@ const Team = () => {
                 <Col lg='3' md='6' sm='6'>
                     <div className="single-team">
                         <div className="team-member-thumb">
+                            <img src={img4}/>
+                        </div>
+
+                        <div className="team-member-content">
+                            <div className="team-content-title">
+                                <h2 className='name'>Devi Srisesha</h2>
+                                <h5 className='designation'>Data Expert</h5>
+                            </div>
+                            <div className="team-social-icon">
+                                <a href='https://github.com/srisesha'><GitHubIcon/></a>
+                                <a href='https://www.linkedin.com/in/sabbella-devi-srisesha'><LinkedInIcon/></a>
+                                <a href='https://srisesha.github.io/Powerbi/'><InsertLinkIcon/></a>
+                            </div>
+                        </div>
+                    </div>                    
+                </Col>
+                <Col lg='3' md='6' sm='6'>
+                    <div className="single-team">
+                        <div className="team-member-thumb">
                             <img src={img1}/>
                         </div>
                     
@@ -79,25 +98,7 @@ const Team = () => {
                         </div>
                     </div>                    
                 </Col>
-                <Col lg='3' md='6' sm='6'>
-                    <div className="single-team">
-                        <div className="team-member-thumb">
-                            <img src={img4}/>
-                        </div>
-
-                        <div className="team-member-content">
-                            <div className="team-content-title">
-                                <h2 className='name'>Devi Srisesha</h2>
-                                <h5 className='designation'>Data Expert</h5>
-                            </div>
-                            <div className="team-social-icon">
-                                <a href='https://github.com/srisesha'><GitHubIcon/></a>
-                                <a href='https://www.linkedin.com/in/sabbella-devi-srisesha'><LinkedInIcon/></a>
-                                <a href='https://srisesha.github.io/Powerbi/'><InsertLinkIcon/></a>
-                            </div>
-                        </div>
-                    </div>                    
-                </Col>
+                
             </Row>
             <div className="learn-more-button">
                 <a href='/team' className='learn-more button button-primary button-ujarak'>Learn More <ArrowRightAltIcon/></a>
