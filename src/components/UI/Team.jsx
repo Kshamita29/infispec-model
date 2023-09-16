@@ -25,7 +25,7 @@ const Team = () => {
                 <Col lg='3' md='6' sm='6'>
                     <div className="single-team">
                         <div className="team-member-thumb">
-                            <img src={img4}/>
+                            <img src={img4} alt=''/>
                         </div>
 
                         <div className="team-member-content">
@@ -44,7 +44,7 @@ const Team = () => {
                 <Col lg='3' md='6' sm='6'>
                     <div className="single-team">
                         <div className="team-member-thumb">
-                            <img src={img1}/>
+                            <img src={img1} alt=''/>
                         </div>
                     
                         <div className="team-member-content">
@@ -63,7 +63,7 @@ const Team = () => {
                 <Col lg='3' md='6' sm='6'>
                     <div className="single-team">
                         <div className="team-member-thumb">
-                            <img src={img2} style={{height:'300px'}}/>
+                            <img src={img2} alt='' style={{height:'300px'}}/>
                         </div>
                     
                         <div className="team-member-content">
@@ -82,7 +82,7 @@ const Team = () => {
                 <Col lg='3' md='6' sm='6'>
                     <div className="single-team">
                         <div className="team-member-thumb">
-                            <img src={img3}/>
+                            <img src={img3} alt=''/>
                         </div>
                     
                         <div className="team-member-content">
