@@ -20,7 +20,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-    <HashRouter baseline="/">
+    <HashRouter>
       <App />
     </HashRouter>
   </React.StrictMode>
