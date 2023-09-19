@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route} from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Home from '../pages/Home';
 import AllServices from '../pages/AllServices';
 import About from '../pages/About';
@@ -18,9 +18,9 @@ import ContactUs from '../pages/ContactUs';
 const Routers = () => {
   return (
       <Routes> 
-          <Route path="/" element={<Home/>} />
-          <Route path="/services" element={<AllServices />} />
-          <Route path="/about" element={<About />}/>
+          <Route path='/' element={<Home/>} />
+          <Route path='/services' element={<AllServices />} />
+          <Route path='/about' element={<About />}/>
           <Route path='/team' element={<TeamMembers />}/>
           <Route path='/projects' element={<Projects />}/>
           <Route path='/infinite-insights' element={<InfiniteInsights />}/>

@@ -12,7 +12,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 import reportWebVitals from './reportWebVitals';
-import { HashRouter } from 'react-router-dom';
+import { BrowswerRouter } from 'react-router-dom';
 
 
 
@@ -20,9 +20,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-    <HashRouter>
+    <BrowswerRouter>
       <App />
-    </HashRouter>
+    </BrowswerRouter>
   </React.StrictMode>
 );
 
