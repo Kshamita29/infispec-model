@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/infispec-model/static/css/main.5a9fbbd4.css",
-    "main.js": "/infispec-model/static/js/main.b3381b7c.js",
+    "main.js": "/infispec-model/static/js/main.d2af7e03.js",
     "static/js/787.355df0c8.chunk.js": "/infispec-model/static/js/787.355df0c8.chunk.js",
     "static/media/remixicon.svg?t=1687271883607": "/infispec-model/static/media/remixicon.636515c9a8963df4380d.svg",
     "static/media/gif": "/infispec-model/static/media/0cd3091df76003c144f63cf217c15da4.7f75e7b3ce7bcc79161e.gif",
@@ -44,11 +44,11 @@
     "static/media/bag-check-fill.svg": "/infispec-model/static/media/bag-check-fill.b3177ff5518e3ff685d465572ef09183.svg",
     "static/media/verified_user_FILL0_wght400_GRAD0_opsz24.svg": "/infispec-model/static/media/verified_user_FILL0_wght400_GRAD0_opsz24.86285d5fd763046b2a595a509fe2893b.svg",
     "main.5a9fbbd4.css.map": "/infispec-model/static/css/main.5a9fbbd4.css.map",
-    "main.b3381b7c.js.map": "/infispec-model/static/js/main.b3381b7c.js.map",
+    "main.d2af7e03.js.map": "/infispec-model/static/js/main.d2af7e03.js.map",
     "787.355df0c8.chunk.js.map": "/infispec-model/static/js/787.355df0c8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5a9fbbd4.css",
-    "static/js/main.b3381b7c.js"
+    "static/js/main.d2af7e03.js"
   ]
 }
