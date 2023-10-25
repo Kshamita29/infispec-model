@@ -1,6 +1,7 @@
 {
   "name": "infispec",
   "version": "0.1.0",
+  "homepage": "https://github.com/Kshamita29/infispec-model",
   "private": false,
   "dependencies": {
     "@emotion/react": "^11.11.1",
